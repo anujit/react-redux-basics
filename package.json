@@ -1,0 +1,21 @@
+{
+  "name": "react-redux-basics",
+  "version": "1.0.0",
+  "description": "React-Redux basic concepts",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/index.js -o bundle.js -t [ babelify --presets [ react ] ]"
+  },
+  "author": "Anujit Nene",
+  "dependencies": {
+    "browserify": "13.0.1",
+    "react": "15.2.1",
+    "react-dom": "15.2.1",
+    "react-redux": "4.4.5",
+    "redux": "3.5.2"
+  },
+  "devDependencies": {
+    "babel-preset-react": "6.11.1",
+    "babelify": "7.3.0"
+  }
+}
